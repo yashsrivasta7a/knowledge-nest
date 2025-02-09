@@ -1,5 +1,5 @@
 import React from 'next'
-import { SetStateAction, useState } from 'react'
+import { useState } from 'react'
 
 const Faq = () => {
     const [currentIndex, setCurrentIndex] = useState<number | null>(null);
@@ -21,7 +21,7 @@ const Faq = () => {
         </section>
         <section className='second part '>
             <h3 className='second part heading of faq'>Frequently Asked Questions</h3>
-            
+
         </section>
 
     </div>
