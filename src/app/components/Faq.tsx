@@ -5,10 +5,10 @@ const Faq = () => {
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
 
   const toggleFaq = (index: number) => {
-    setCurrentIndex(currentIndex === index ? null : index); // Toggle open/close
+    setCurrentIndex(currentIndex === index ? null : index); 
   };
 
-  // Combined FAQs and Answers in one array
+  
   const faqData = [
     {
       question: 'How do I create an account on KnowledgeNest?',
