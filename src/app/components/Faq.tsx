@@ -70,6 +70,16 @@ const Faq = () => {
             );
         })}
       </section>
+      <section >
+        <h3 >Still have questions? How can we help?</h3>
+        <form >
+          <input type="text" placeholder="First Name"  />
+          <input type="text" placeholder="Last Name"  />
+          <input type="email" placeholder="Email"  />
+          <textarea placeholder="Message" ></textarea>
+          <button type="submit" >Send</button>
+        </form>
+      </section>
     </div>
   );
 };
